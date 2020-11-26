@@ -1,0 +1,1669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="S1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 50.25pt</value>
+  </data>
+  <data name="S1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 143</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="S1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="S1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="S1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;S1.Name" xml:space="preserve">
+    <value>S1</value>
+  </data>
+  <data name="&gt;&gt;S1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;S1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;S1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="S2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 50.25pt</value>
+  </data>
+  <data name="S2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 250</value>
+  </data>
+  <data name="S2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="S2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="S2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;S2.Name" xml:space="preserve">
+    <value>S2</value>
+  </data>
+  <data name="&gt;&gt;S2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;S2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;S2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="S3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 50.25pt</value>
+  </data>
+  <data name="S3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 357</value>
+  </data>
+  <data name="S3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="S3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="S3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;S3.Name" xml:space="preserve">
+    <value>S3</value>
+  </data>
+  <data name="&gt;&gt;S3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;S3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;S3.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="S6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 50.25pt</value>
+  </data>
+  <data name="S6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 357</value>
+  </data>
+  <data name="S6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="S6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="S6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;S6.Name" xml:space="preserve">
+    <value>S6</value>
+  </data>
+  <data name="&gt;&gt;S6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;S6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;S6.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="S5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 50.25pt</value>
+  </data>
+  <data name="S5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 250</value>
+  </data>
+  <data name="S5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="S5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="S5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;S5.Name" xml:space="preserve">
+    <value>S5</value>
+  </data>
+  <data name="&gt;&gt;S5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;S5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;S5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="S4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 50.25pt</value>
+  </data>
+  <data name="S4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 143</value>
+  </data>
+  <data name="S4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="S4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="S4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;S4.Name" xml:space="preserve">
+    <value>S4</value>
+  </data>
+  <data name="&gt;&gt;S4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;S4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;S4.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="S9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 50.25pt</value>
+  </data>
+  <data name="S9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 357</value>
+  </data>
+  <data name="S9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="S9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="S9.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;S9.Name" xml:space="preserve">
+    <value>S9</value>
+  </data>
+  <data name="&gt;&gt;S9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;S9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;S9.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="S8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 50.25pt</value>
+  </data>
+  <data name="S8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 250</value>
+  </data>
+  <data name="S8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="S8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="S8.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;S8.Name" xml:space="preserve">
+    <value>S8</value>
+  </data>
+  <data name="&gt;&gt;S8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;S8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;S8.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="S7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 50.25pt</value>
+  </data>
+  <data name="S7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 143</value>
+  </data>
+  <data name="S7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="S7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="S7.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;S7.Name" xml:space="preserve">
+    <value>S7</value>
+  </data>
+  <data name="&gt;&gt;S7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;S7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;S7.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Reset.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="Reset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 393</value>
+  </data>
+  <data name="Reset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 64</value>
+  </data>
+  <data name="Reset.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Reset.Text" xml:space="preserve">
+    <value>!RESET!</value>
+  </data>
+  <data name="&gt;&gt;Reset.Name" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;Reset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Reset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Reset.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Clear.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="Clear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 323</value>
+  </data>
+  <data name="Clear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 64</value>
+  </data>
+  <data name="Clear.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Clear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;Clear.Name" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;Clear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Clear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Clear.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Player_O.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Player_O.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 30pt</value>
+  </data>
+  <data name="Player_O.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 143</value>
+  </data>
+  <data name="Player_O.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 46</value>
+  </data>
+  <data name="Player_O.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Player_O.Text" xml:space="preserve">
+    <value>Player O</value>
+  </data>
+  <data name="Player_O.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Player_O.Name" xml:space="preserve">
+    <value>Player_O</value>
+  </data>
+  <data name="&gt;&gt;Player_O.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Player_O.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Player_O.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Player_X.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Player_X.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 30pt</value>
+  </data>
+  <data name="Player_X.Location" type="System.Drawing.Point, System.Drawing">
+    <value>601, 143</value>
+  </data>
+  <data name="Player_X.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 46</value>
+  </data>
+  <data name="Player_X.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Player_X.Text" xml:space="preserve">
+    <value>Player X</value>
+  </data>
+  <data name="Player_X.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Player_X.Name" xml:space="preserve">
+    <value>Player_X</value>
+  </data>
+  <data name="&gt;&gt;Player_X.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Player_X.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Player_X.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SFO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 30pt</value>
+  </data>
+  <data name="SFO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 226</value>
+  </data>
+  <data name="SFO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 46</value>
+  </data>
+  <data name="SFO.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="SFO.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SFO.Name" xml:space="preserve">
+    <value>SFO</value>
+  </data>
+  <data name="&gt;&gt;SFO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SFO.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SFO.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SFX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 30pt</value>
+  </data>
+  <data name="SFX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 226</value>
+  </data>
+  <data name="SFX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 46</value>
+  </data>
+  <data name="SFX.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="SFX.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SFX.Name" xml:space="preserve">
+    <value>SFX</value>
+  </data>
+  <data name="&gt;&gt;SFX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SFX.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SFX.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Settings.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAjJJREFUWEfdmT1OAlEUhVmAWxAbC4ydVBYmBOhIjLW9CSzAzoXIAnQf7kAKbaUm
+        hMZSo55LDvFx576/kZkhnuQL8t45990MzGNmbP1Vg8HgGXx7eKCtORlNuXzR1pyMpragrTphkTNwyLcF
+        uc1Y0FYQ5trgjG/LyV0IdDi8Ft5fgTtn3se43+9fMLYWxjquh8N5QnDhFhGw0BFe7/V4BpKVI6fHF1w2
+        TRJQBeogrUkjWCtswxYMckKYwRrpsp2iMGl9P+rmiO3YguFEBerkhG2EBaOcrVaBKgkfOVcwl9lKPsAx
+        tqJTvH4646lMuXxcRtjHHHg/FszJhiweK1uAsbBwBEZW2OCVkajgfVFZH+eM+AXTWIUs5rQnC5k3VcNi
+        QvuvcMQeDWOMtLPNkWRUjSjSmwTNyRBcM1tWrRhlQkuuly1kV6pWlOwGuVZpWTVD/L8G8cVdca1sIb/U
+        9WJkNyhwvWxZtWLINjOzJiJsXf6nSDKqRgozxn+FwSdlsqhko8bBuqXdLxhvdNDDCyNRiVdlfVwyEpYR
+        9CFHJXaxkPITt4axuGAuc7n13uv1DobD4YH8reZSyLrcauLSv83lw4KxzNm2K8K7Awz7cNPkP5KY3O/b
+        TpERqBW2ERaM+/voYyMJqAKC3I5O1VgOkv37w6ONVJGtDRk/S9cYu1Ueiwm8I8bWwtjW5T+HywkFusB7
+        U+0uZEFbQZiTTyN8QuxCbjMWtDUnqymH5h+i4/tV4b8hWq0fb15owOVSQ64AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Settings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, -1</value>
+  </data>
+  <data name="Settings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 48</value>
+  </data>
+  <data name="Settings.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Settings.Name" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;Settings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Settings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Settings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 50pt</value>
+  </data>
+  <data name="Title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="Title.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 1, 0</value>
+  </data>
+  <data name="Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>385, 76</value>
+  </data>
+  <data name="Title.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Tic Tac Toe</value>
+  </data>
+  <data name="Title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Title.Name" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="&gt;&gt;Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Title.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Header.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="Header.Size" type="System.Drawing.Size, System.Drawing">
+    <value>773, 99</value>
+  </data>
+  <data name="Header.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;Header.Name" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="&gt;&gt;Header.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Header.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Header.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Body.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Body.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 134</value>
+  </data>
+  <data name="Body.Size" type="System.Drawing.Size, System.Drawing">
+    <value>773, 337</value>
+  </data>
+  <data name="Body.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;Body.Name" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="&gt;&gt;Body.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Body.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Body.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="YellowBg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="YellowBg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="YellowBg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 35</value>
+  </data>
+  <data name="YellowBg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="YellowBg.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="YellowBg.Text" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="&gt;&gt;YellowBg.Name" xml:space="preserve">
+    <value>YellowBg</value>
+  </data>
+  <data name="&gt;&gt;YellowBg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;YellowBg.Parent" xml:space="preserve">
+    <value>BgColGroup</value>
+  </data>
+  <data name="&gt;&gt;YellowBg.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GreenBg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GreenBg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GreenBg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 58</value>
+  </data>
+  <data name="GreenBg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="GreenBg.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="GreenBg.Text" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="&gt;&gt;GreenBg.Name" xml:space="preserve">
+    <value>GreenBg</value>
+  </data>
+  <data name="&gt;&gt;GreenBg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GreenBg.Parent" xml:space="preserve">
+    <value>BgColGroup</value>
+  </data>
+  <data name="&gt;&gt;GreenBg.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RedBg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RedBg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RedBg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 81</value>
+  </data>
+  <data name="RedBg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="RedBg.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="RedBg.Text" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="&gt;&gt;RedBg.Name" xml:space="preserve">
+    <value>RedBg</value>
+  </data>
+  <data name="&gt;&gt;RedBg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RedBg.Parent" xml:space="preserve">
+    <value>BgColGroup</value>
+  </data>
+  <data name="&gt;&gt;RedBg.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BlueBg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BlueBg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BlueBg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 104</value>
+  </data>
+  <data name="BlueBg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="BlueBg.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="BlueBg.Text" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="&gt;&gt;BlueBg.Name" xml:space="preserve">
+    <value>BlueBg</value>
+  </data>
+  <data name="&gt;&gt;BlueBg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlueBg.Parent" xml:space="preserve">
+    <value>BgColGroup</value>
+  </data>
+  <data name="&gt;&gt;BlueBg.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PlayerModeSwich.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 394</value>
+  </data>
+  <data name="PlayerModeSwich.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 50</value>
+  </data>
+  <data name="PlayerModeSwich.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="PlayerModeSwich.Text" xml:space="preserve">
+    <value>Enable one-player mode</value>
+  </data>
+  <data name="&gt;&gt;PlayerModeSwich.Name" xml:space="preserve">
+    <value>PlayerModeSwich</value>
+  </data>
+  <data name="&gt;&gt;PlayerModeSwich.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlayerModeSwich.Parent" xml:space="preserve">
+    <value>Settingspanel</value>
+  </data>
+  <data name="&gt;&gt;PlayerModeSwich.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;YellowAll.Name" xml:space="preserve">
+    <value>YellowAll</value>
+  </data>
+  <data name="&gt;&gt;YellowAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;YellowAll.Parent" xml:space="preserve">
+    <value>AllColorGroup</value>
+  </data>
+  <data name="&gt;&gt;YellowAll.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GreenAll.Name" xml:space="preserve">
+    <value>GreenAll</value>
+  </data>
+  <data name="&gt;&gt;GreenAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GreenAll.Parent" xml:space="preserve">
+    <value>AllColorGroup</value>
+  </data>
+  <data name="&gt;&gt;GreenAll.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AllRed.Name" xml:space="preserve">
+    <value>AllRed</value>
+  </data>
+  <data name="&gt;&gt;AllRed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AllRed.Parent" xml:space="preserve">
+    <value>AllColorGroup</value>
+  </data>
+  <data name="&gt;&gt;AllRed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;BlueAll.Name" xml:space="preserve">
+    <value>BlueAll</value>
+  </data>
+  <data name="&gt;&gt;BlueAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlueAll.Parent" xml:space="preserve">
+    <value>AllColorGroup</value>
+  </data>
+  <data name="&gt;&gt;BlueAll.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="AllColorGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 349</value>
+  </data>
+  <data name="AllColorGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 125</value>
+  </data>
+  <data name="AllColorGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="AllColorGroup.Text" xml:space="preserve">
+    <value>Set all colours</value>
+  </data>
+  <data name="&gt;&gt;AllColorGroup.Name" xml:space="preserve">
+    <value>AllColorGroup</value>
+  </data>
+  <data name="&gt;&gt;AllColorGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AllColorGroup.Parent" xml:space="preserve">
+    <value>Settingspanel</value>
+  </data>
+  <data name="&gt;&gt;AllColorGroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;YellowBtn.Name" xml:space="preserve">
+    <value>YellowBtn</value>
+  </data>
+  <data name="&gt;&gt;YellowBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;YellowBtn.Parent" xml:space="preserve">
+    <value>BtnColGroup</value>
+  </data>
+  <data name="&gt;&gt;YellowBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RedBtn.Name" xml:space="preserve">
+    <value>RedBtn</value>
+  </data>
+  <data name="&gt;&gt;RedBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RedBtn.Parent" xml:space="preserve">
+    <value>BtnColGroup</value>
+  </data>
+  <data name="&gt;&gt;RedBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BlueBtn.Name" xml:space="preserve">
+    <value>BlueBtn</value>
+  </data>
+  <data name="&gt;&gt;BlueBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlueBtn.Parent" xml:space="preserve">
+    <value>BtnColGroup</value>
+  </data>
+  <data name="&gt;&gt;BlueBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GreenBtn.Name" xml:space="preserve">
+    <value>GreenBtn</value>
+  </data>
+  <data name="&gt;&gt;GreenBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GreenBtn.Parent" xml:space="preserve">
+    <value>BtnColGroup</value>
+  </data>
+  <data name="&gt;&gt;GreenBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtnColGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 26</value>
+  </data>
+  <data name="BtnColGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 133</value>
+  </data>
+  <data name="BtnColGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="BtnColGroup.Text" xml:space="preserve">
+    <value>Select button color</value>
+  </data>
+  <data name="&gt;&gt;BtnColGroup.Name" xml:space="preserve">
+    <value>BtnColGroup</value>
+  </data>
+  <data name="&gt;&gt;BtnColGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnColGroup.Parent" xml:space="preserve">
+    <value>Settingspanel</value>
+  </data>
+  <data name="&gt;&gt;BtnColGroup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;YellowSc.Name" xml:space="preserve">
+    <value>YellowSc</value>
+  </data>
+  <data name="&gt;&gt;YellowSc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;YellowSc.Parent" xml:space="preserve">
+    <value>ScoreColGroup</value>
+  </data>
+  <data name="&gt;&gt;YellowSc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RedSc.Name" xml:space="preserve">
+    <value>RedSc</value>
+  </data>
+  <data name="&gt;&gt;RedSc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RedSc.Parent" xml:space="preserve">
+    <value>ScoreColGroup</value>
+  </data>
+  <data name="&gt;&gt;RedSc.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BlueSc.Name" xml:space="preserve">
+    <value>BlueSc</value>
+  </data>
+  <data name="&gt;&gt;BlueSc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlueSc.Parent" xml:space="preserve">
+    <value>ScoreColGroup</value>
+  </data>
+  <data name="&gt;&gt;BlueSc.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GreenSc.Name" xml:space="preserve">
+    <value>GreenSc</value>
+  </data>
+  <data name="&gt;&gt;GreenSc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GreenSc.Parent" xml:space="preserve">
+    <value>ScoreColGroup</value>
+  </data>
+  <data name="&gt;&gt;GreenSc.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ScoreColGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 184</value>
+  </data>
+  <data name="ScoreColGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 137</value>
+  </data>
+  <data name="ScoreColGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="ScoreColGroup.Text" xml:space="preserve">
+    <value>Select score color</value>
+  </data>
+  <data name="&gt;&gt;ScoreColGroup.Name" xml:space="preserve">
+    <value>ScoreColGroup</value>
+  </data>
+  <data name="&gt;&gt;ScoreColGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ScoreColGroup.Parent" xml:space="preserve">
+    <value>Settingspanel</value>
+  </data>
+  <data name="&gt;&gt;ScoreColGroup.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;YellowFg.Name" xml:space="preserve">
+    <value>YellowFg</value>
+  </data>
+  <data name="&gt;&gt;YellowFg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;YellowFg.Parent" xml:space="preserve">
+    <value>FgColGroup</value>
+  </data>
+  <data name="&gt;&gt;YellowFg.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RedFg.Name" xml:space="preserve">
+    <value>RedFg</value>
+  </data>
+  <data name="&gt;&gt;RedFg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RedFg.Parent" xml:space="preserve">
+    <value>FgColGroup</value>
+  </data>
+  <data name="&gt;&gt;RedFg.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BlueFg.Name" xml:space="preserve">
+    <value>BlueFg</value>
+  </data>
+  <data name="&gt;&gt;BlueFg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlueFg.Parent" xml:space="preserve">
+    <value>FgColGroup</value>
+  </data>
+  <data name="&gt;&gt;BlueFg.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GreenFg.Name" xml:space="preserve">
+    <value>GreenFg</value>
+  </data>
+  <data name="&gt;&gt;GreenFg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GreenFg.Parent" xml:space="preserve">
+    <value>FgColGroup</value>
+  </data>
+  <data name="&gt;&gt;GreenFg.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="FgColGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 184</value>
+  </data>
+  <data name="FgColGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 137</value>
+  </data>
+  <data name="FgColGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="FgColGroup.Text" xml:space="preserve">
+    <value>Select foreground color</value>
+  </data>
+  <data name="&gt;&gt;FgColGroup.Name" xml:space="preserve">
+    <value>FgColGroup</value>
+  </data>
+  <data name="&gt;&gt;FgColGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FgColGroup.Parent" xml:space="preserve">
+    <value>Settingspanel</value>
+  </data>
+  <data name="&gt;&gt;FgColGroup.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BgColGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 26</value>
+  </data>
+  <data name="BgColGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 133</value>
+  </data>
+  <data name="BgColGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="BgColGroup.Text" xml:space="preserve">
+    <value>Select background color</value>
+  </data>
+  <data name="&gt;&gt;BgColGroup.Name" xml:space="preserve">
+    <value>BgColGroup</value>
+  </data>
+  <data name="&gt;&gt;BgColGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BgColGroup.Parent" xml:space="preserve">
+    <value>Settingspanel</value>
+  </data>
+  <data name="&gt;&gt;BgColGroup.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Settingspanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 22</value>
+  </data>
+  <data name="Settingspanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 509</value>
+  </data>
+  <data name="Settingspanel.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Settingspanel.Name" xml:space="preserve">
+    <value>Settingspanel</value>
+  </data>
+  <data name="&gt;&gt;Settingspanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Settingspanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Settingspanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="YellowAll.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="YellowAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 32</value>
+  </data>
+  <data name="YellowAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="YellowAll.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="YellowAll.Text" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="&gt;&gt;YellowAll.Name" xml:space="preserve">
+    <value>YellowAll</value>
+  </data>
+  <data name="&gt;&gt;YellowAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;YellowAll.Parent" xml:space="preserve">
+    <value>AllColorGroup</value>
+  </data>
+  <data name="&gt;&gt;YellowAll.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GreenAll.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GreenAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 55</value>
+  </data>
+  <data name="GreenAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="GreenAll.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GreenAll.Text" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="&gt;&gt;GreenAll.Name" xml:space="preserve">
+    <value>GreenAll</value>
+  </data>
+  <data name="&gt;&gt;GreenAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GreenAll.Parent" xml:space="preserve">
+    <value>AllColorGroup</value>
+  </data>
+  <data name="&gt;&gt;GreenAll.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AllRed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AllRed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 78</value>
+  </data>
+  <data name="AllRed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="AllRed.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AllRed.Text" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="&gt;&gt;AllRed.Name" xml:space="preserve">
+    <value>AllRed</value>
+  </data>
+  <data name="&gt;&gt;AllRed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AllRed.Parent" xml:space="preserve">
+    <value>AllColorGroup</value>
+  </data>
+  <data name="&gt;&gt;AllRed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BlueAll.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BlueAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 101</value>
+  </data>
+  <data name="BlueAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="BlueAll.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BlueAll.Text" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="&gt;&gt;BlueAll.Name" xml:space="preserve">
+    <value>BlueAll</value>
+  </data>
+  <data name="&gt;&gt;BlueAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlueAll.Parent" xml:space="preserve">
+    <value>AllColorGroup</value>
+  </data>
+  <data name="&gt;&gt;BlueAll.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="YellowBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="YellowBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="YellowBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 32</value>
+  </data>
+  <data name="YellowBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="YellowBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="YellowBtn.Text" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="&gt;&gt;YellowBtn.Name" xml:space="preserve">
+    <value>YellowBtn</value>
+  </data>
+  <data name="&gt;&gt;YellowBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;YellowBtn.Parent" xml:space="preserve">
+    <value>BtnColGroup</value>
+  </data>
+  <data name="&gt;&gt;YellowBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RedBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RedBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RedBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 78</value>
+  </data>
+  <data name="RedBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="RedBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="RedBtn.Text" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="&gt;&gt;RedBtn.Name" xml:space="preserve">
+    <value>RedBtn</value>
+  </data>
+  <data name="&gt;&gt;RedBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RedBtn.Parent" xml:space="preserve">
+    <value>BtnColGroup</value>
+  </data>
+  <data name="&gt;&gt;RedBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BlueBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BlueBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BlueBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 101</value>
+  </data>
+  <data name="BlueBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="BlueBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="BlueBtn.Text" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="&gt;&gt;BlueBtn.Name" xml:space="preserve">
+    <value>BlueBtn</value>
+  </data>
+  <data name="&gt;&gt;BlueBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlueBtn.Parent" xml:space="preserve">
+    <value>BtnColGroup</value>
+  </data>
+  <data name="&gt;&gt;BlueBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GreenBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GreenBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GreenBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="GreenBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="GreenBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="GreenBtn.Text" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="&gt;&gt;GreenBtn.Name" xml:space="preserve">
+    <value>GreenBtn</value>
+  </data>
+  <data name="&gt;&gt;GreenBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GreenBtn.Parent" xml:space="preserve">
+    <value>BtnColGroup</value>
+  </data>
+  <data name="&gt;&gt;GreenBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="YellowSc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="YellowSc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="YellowSc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 45</value>
+  </data>
+  <data name="YellowSc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="YellowSc.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="YellowSc.Text" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="&gt;&gt;YellowSc.Name" xml:space="preserve">
+    <value>YellowSc</value>
+  </data>
+  <data name="&gt;&gt;YellowSc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;YellowSc.Parent" xml:space="preserve">
+    <value>ScoreColGroup</value>
+  </data>
+  <data name="&gt;&gt;YellowSc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RedSc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RedSc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RedSc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 91</value>
+  </data>
+  <data name="RedSc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="RedSc.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="RedSc.Text" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="&gt;&gt;RedSc.Name" xml:space="preserve">
+    <value>RedSc</value>
+  </data>
+  <data name="&gt;&gt;RedSc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RedSc.Parent" xml:space="preserve">
+    <value>ScoreColGroup</value>
+  </data>
+  <data name="&gt;&gt;RedSc.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BlueSc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BlueSc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BlueSc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 114</value>
+  </data>
+  <data name="BlueSc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="BlueSc.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="BlueSc.Text" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="&gt;&gt;BlueSc.Name" xml:space="preserve">
+    <value>BlueSc</value>
+  </data>
+  <data name="&gt;&gt;BlueSc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlueSc.Parent" xml:space="preserve">
+    <value>ScoreColGroup</value>
+  </data>
+  <data name="&gt;&gt;BlueSc.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GreenSc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GreenSc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GreenSc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 68</value>
+  </data>
+  <data name="GreenSc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="GreenSc.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="GreenSc.Text" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="&gt;&gt;GreenSc.Name" xml:space="preserve">
+    <value>GreenSc</value>
+  </data>
+  <data name="&gt;&gt;GreenSc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GreenSc.Parent" xml:space="preserve">
+    <value>ScoreColGroup</value>
+  </data>
+  <data name="&gt;&gt;GreenSc.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="YellowFg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="YellowFg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="YellowFg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 45</value>
+  </data>
+  <data name="YellowFg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="YellowFg.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="YellowFg.Text" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="&gt;&gt;YellowFg.Name" xml:space="preserve">
+    <value>YellowFg</value>
+  </data>
+  <data name="&gt;&gt;YellowFg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;YellowFg.Parent" xml:space="preserve">
+    <value>FgColGroup</value>
+  </data>
+  <data name="&gt;&gt;YellowFg.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RedFg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RedFg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RedFg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 91</value>
+  </data>
+  <data name="RedFg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="RedFg.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="RedFg.Text" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="&gt;&gt;RedFg.Name" xml:space="preserve">
+    <value>RedFg</value>
+  </data>
+  <data name="&gt;&gt;RedFg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RedFg.Parent" xml:space="preserve">
+    <value>FgColGroup</value>
+  </data>
+  <data name="&gt;&gt;RedFg.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BlueFg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BlueFg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BlueFg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 114</value>
+  </data>
+  <data name="BlueFg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="BlueFg.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="BlueFg.Text" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="&gt;&gt;BlueFg.Name" xml:space="preserve">
+    <value>BlueFg</value>
+  </data>
+  <data name="&gt;&gt;BlueFg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlueFg.Parent" xml:space="preserve">
+    <value>FgColGroup</value>
+  </data>
+  <data name="&gt;&gt;BlueFg.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GreenFg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GreenFg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GreenFg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 68</value>
+  </data>
+  <data name="GreenFg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="GreenFg.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="GreenFg.Text" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="&gt;&gt;GreenFg.Name" xml:space="preserve">
+    <value>GreenFg</value>
+  </data>
+  <data name="&gt;&gt;GreenFg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GreenFg.Parent" xml:space="preserve">
+    <value>FgColGroup</value>
+  </data>
+  <data name="&gt;&gt;GreenFg.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Bg.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Bg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Bg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Bg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1118, 537</value>
+  </data>
+  <data name="Bg.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;Bg.Name" xml:space="preserve">
+    <value>Bg</value>
+  </data>
+  <data name="&gt;&gt;Bg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Bg.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Bg.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1118, 537</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAKCgCAAEAAQCwAgAAFgAAACgAAAAoAAAAUAAAAAEAAQAAAAAAQAEAAMMOAADDDgAAAgAAAAIA
+        AAD///8AIgD/AAAIACAAAAAAAAgAIAAAAAAACAAgAAAAAAAIACAAAAAAAAgAIAAAAAAACAAgAAAAAAAI
+        ACAAAAAAAAgAIAAAAAAACAAgAAAAAAAIACAAAAAAAAgAIAAAAAAACAAgAAAAAP//////AAAAAAgAIAAA
+        AAAACAAgAAAAAAAIACAAAAAAAAgAIAAAAAAACAAgAAAAAAAIACAAAAAAAAgAIAAAAAAACAAgAAAAAAAI
+        ACAAAAAAAAgAIAAAAAAACAAgAAAAAAAIACAAAAAAAAgAIAAAAAD//////wAAAAAIACAAAAAAAAgAIAAA
+        AAAACAAgAAAAAAAIACAAAAAAAAgAIAAAAAAACAAgAAAAAAAIACAAAAAAAAgAIAAAAAAACAAgAAAAAAAI
+        ACAAAAAAAAgAIAAAAAAACAAgAAAAAAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Tic Tac Toe</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
